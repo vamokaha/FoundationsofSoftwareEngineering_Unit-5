@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 100%);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3.5rem;
+}
+
+header img {
+    width: 13rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: hsl(0, 0%, 0%);
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 40rem;
+    margin-bottom: 3rem;
+    color: hsl(0, 0%, 48%);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 30rem;
+    width: 100%;
+}
+
+input[type='email'] {
+    border: none;
+    border-radius: 25px;
+    padding: 1rem 2rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    color: hsl(0, 0%, 0%);
+    background-color: hsl(0, 0%, 98%);
+}
+
+#submit {
+    border: none;
+    border-radius: 25px;
+    padding: 1rem 3rem;
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
